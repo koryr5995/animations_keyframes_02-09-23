@@ -1,0 +1,329 @@
+@keyframes basketball{
+    0%{
+    margin-top: 50%;
+    }
+    10%{
+        margin-top: 40%;
+        margin-left: 10%;
+    }
+    20%{
+        margin-top: 30%;
+        margin-left: 20%;
+    }
+    30%{
+        margin-top: 20%;
+        margin-left:30%;
+    }
+    40%{
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+    50%{
+        margin-top: 20%;
+        margin-left: 50%;
+    }
+    60%{
+        margin-top: 30%;
+        margin-left: 50%;
+    }
+    70%{
+        margin-top: 40%;
+        margin-left: 50%;
+    }
+    80%{
+        margin-top: 30%;
+        margin-left: 50%;
+    }
+    85%{
+        margin-top: 40%;
+        margin-left: 50%;
+    }
+    90%{
+        margin-top: 30%;
+        margin-left: 50%;
+    }
+    100%{
+        margin-top: 40%;
+        margin-left: 50%;
+    }
+}
+.basketball{
+    animation: basketball 10s ease-in infinite;
+}
+.ball1{
+    border: solid black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+}
+.shoot{
+    font-size:32px;
+    width:120px;
+    margin:1em;
+    border-radius:22px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:blue;
+    color:yellow;
+    border:solid red;
+    border-width:.5px;
+}
+
+.rocket{
+    border: solid black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    animation: rocket 10s ease-in;
+}
+.rocket{
+    animation: rocket 10s ease-in;
+}
+
+@keyframes rocket{
+    0%{
+        border: dotted black;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-left: 0%;
+        margin-top: 100%;
+    }
+    10%{
+        border: dotted black;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-left: 10%;
+        margin-top: 90;
+    }
+    20%{
+        border: dotted black;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-left: 20%;
+        margin-top: 80%;
+    }
+    30%{
+        border: dotted black;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-left: 30%;
+        margin-top: 70%;
+    }
+    40%{
+        border: dotted black;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-left: 40%;
+        margin-top: 60%;
+    }
+
+    50%{
+        border: dotted black;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-left: 50%;
+        margin-top: 50%;
+    }
+    60%{
+        border: dotted black;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-left: 60%;
+        margin-top: 40%;
+    }
+    70%{
+        border: dotted black;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-left: 70%;
+        margin-top: 30%;
+    }
+    80%{
+        border: dotted black;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-left: 80%;
+        margin-top: 20%;
+    }
+    90%{
+        border: dotted black;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-left: 90%;
+        margin-top: 10%;
+    }
+    100%{
+        border: dotted black;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-left: 100%;
+        margin-top: 0%;
+    }
+}
+.takeoff1{
+    font-size:32px;
+    width:120px;
+    margin:1em;
+    border-radius:22px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:blue;
+    color:yellow;
+    border:solid red;
+    border-width:.5px;
+}
+
+.nickl{
+    font-size:32px;
+    width:120px;
+    margin:1em;
+    border-radius:22px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:orange;
+    color:limegreen;
+    border:solid blue;
+    border-width:.5px;
+}
+
+@keyframes nicklogo{
+    0%{
+        margin-top: 50%;
+    }
+    10%{
+        margin-top: 40%;
+        margin-left: 10%;
+    }
+    20%{
+        margin-top: 50%;
+        margin-left: 20%;
+    }
+    30%{
+        margin-top: 40%;
+        margin-left:30%;
+    }
+    40%{
+        margin-top: 50%;
+        margin-left: 40%;
+    }
+    50%{
+        margin-top: 40%;
+        margin-left: 50%;
+    }
+    60%{
+        margin-top: 50%;
+        margin-left: 40%;
+    }
+    70%{
+        margin-top: 40%;
+        margin-left: 30%;
+    }
+    80%{
+        margin-top: 50%;
+        margin-left: 20%;
+    }
+    90%{
+        margin-top: 40%;
+        margin-left: 10%;
+    }
+    100%{
+        margin-top: 50%;
+    }
+}
+.nicklogo{
+    animation: nicklogo 10s ease-in infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hinge{
+    0%{
+        margin-top: 30%;
+        margin-left: 0%;
+}
+    25%{
+    margin-top: 30%;
+    margin-left: 50%;
+}
+50%{
+    margin-top: 30%;
+    margin-left: 100%;
+}
+75%{
+    margin-top: 30%;
+    margin-left: 50%;
+}
+100%{
+    margin-top: 30%;
+    margin-left: 0%;
+}
+}
+.supreme{
+    position: absolute;
+    animation: hinge 10s ease-in infinite;
+}
+
+/* .stick{
+    border: solid red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    animation: stick2 10s ease-in infinite;
+    position: absolute;
+}
+@keyframes stick2{
+    0%{
+        margin-top: 10%;
+        margin-left: 90%;
+}
+    15%{
+      display: none;
+}
+    25%{
+    margin-top: 40%;
+    margin-left: 30%;
+}
+    40%{
+    display: none;
+}
+    50%{
+    margin-top: 70%;
+    margin-left: 65%;
+    border: solid yellow;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+65%{
+    display: none;
+}
+75%{
+    margin-top: 20%;
+    margin-left: 10%;
+    border: solid yellow;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px
+}
+85%{
+    display: none;
+}
+100%{
+    margin-top: 30%;
+    margin-left: 50%;
+}
+} */
